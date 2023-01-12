@@ -9,14 +9,7 @@ import {
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyAFlDGTFTxsj6ocwPr2Au5W94bnvqAWmSM",
-  authDomain: "mern2-62000.firebaseapp.com",
-  projectId: "mern2-62000",
-  storageBucket: "mern2-62000.appspot.com",
-  messagingSenderId: "66955526686",
-  appId: "1:66955526686:web:eddde2e831424cc847e40f",
-};
+const firebaseConfig = {};
 
 // Initialize Firebase
 const firebaseApp = initializeApp(firebaseConfig);
